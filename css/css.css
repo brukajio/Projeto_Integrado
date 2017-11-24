@@ -1,0 +1,109 @@
+@charset "UTF-8";
+nav{
+	margin-top:-16px;
+	width:100%;
+}
+
+#menu{
+	background-color:#0040FF;
+	background-image:linear-gradient(to bottom, transparent, rgba(0,0,0,.6));
+	border-radius:0px 0px 5px 5px;
+	border-top:3px white solid;
+	font-family: "Josefin Sans", "Calibri", "Arial";
+	padding:0.8333%; /* 10px ÷ 1200px = 0.008333 x 100 = 0.8333%*/
+}
+
+#menu li{
+	display:inline;
+	padding:0.8333%; /* 10px ÷ 1200px = 0.008333 x 100 = 0.8333%*/
+	color:white;
+	text-shadow: 1px 3px 3px black;
+}
+
+#menu li:hover, #menu li.atual{
+	background-color:white;
+	background-image:linear-gradient(to bottom, transparent, rgba(0,0,0,.2));
+	box-shadow: 1px 2px 2px black;
+	color:black;
+	font-weight:600;
+	text-shadow:none;
+	cursor:pointer;
+	transition: all 0.5s;
+}
+
+#menu li:hover a , #menu li.atual a{
+	color:black;
+	font-weight:600;
+	text-shadow:none;
+}
+
+#menu a{
+	text-decoration: none;
+	color:white;
+}
+
+h1{
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  width:100%;
+}
+div{
+
+  background-color: rgba(255, 255, 255, 0.7);
+	border-radius: 10px 10px 0px 0px;
+	border: solid 4px #0040FF;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding:2.5%;
+	width:100%;
+	box-sizing:border-box;
+}
+img{
+  float: left;
+}
+
+
+ p.trabalho{
+
+ }
+
+ table{
+   border: solid 5px #0040ff;
+
+   margin-left: auto;
+ 	margin-right: auto;
+
+ }
+ div.tabela{
+
+
+   margin-left: center;
+   margin-right: center;
+   padding:2.5%;
+   }
+
+   tr, th, td{
+ border: solid 5px #0040ff;
+   }
+
+   h2.nucleo{
+     text-align: center;
+   }
+ caption{
+   width: 25%;
+   text-align: center;
+   text-decoration: bolder;
+ }
+
+ body{
+
+   width: 100%;
+   background-image: url(../img/estudo.png);
+   background-repeat: no-repeat;
+   background-size: 100%;
+   background-position: relative;
+ }
